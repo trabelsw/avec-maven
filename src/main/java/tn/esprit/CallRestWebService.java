@@ -26,6 +26,7 @@ public class CallRestWebService {
 	public static void main(String[] args) {
 		HttpClient client = new DefaultHttpClient();
 		//test
+		//test
 		HttpGet request = new HttpGet(endpoint);
 		String ip = "not found";
 		try {

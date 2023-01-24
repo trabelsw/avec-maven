@@ -25,6 +25,7 @@ public class CallRestWebService {
 	//public static final String endpoint = "https://httpbin.org/get";
 	public static void main(String[] args) {
 		HttpClient client = new DefaultHttpClient();
+		//test
 		HttpGet request = new HttpGet(endpoint);
 		String ip = "not found";
 		try {
